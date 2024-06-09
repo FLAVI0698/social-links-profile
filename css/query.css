@@ -1,0 +1,10 @@
+@media (max-width: 375px){
+    
+    .container-social-links {
+        width: 90%;
+    }
+    .attribution {
+        display: inline-block;
+        width: 80%;
+    }
+}

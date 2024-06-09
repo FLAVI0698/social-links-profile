@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Inter;
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: Inter, 'Courier New', Courier, monospace;
+}
+
+.container-social-links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 12%);
+    width: 375px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.social-links-perfil .perfil {
+    text-align: center;
+    margin: 20px;
+}
+
+.social-links-perfil .perfil img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.social-links-perfil .title {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.social-links-perfil .size {
+    font-size: 14px;
+    text-align: center;
+}
+
+.social-links-perfil .location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.social-links ul {
+    margin: 25px 20px;
+}
+
+.social-links ul li {
+    padding: 10px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    list-style-position: inside;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+.social-links ul li:hover {
+    text-decoration: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+.social-links ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-size: 1em;
+}
